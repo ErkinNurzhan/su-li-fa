@@ -1,0 +1,54 @@
+.conteiner{
+    margin:0 auto;
+    width: 500px;
+background: rgb(14, 14, 142);
+border-radius: 40px 160px;
+}
+
+.pape{
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+ .bolu{ 
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-evenly; 
+ }
+ .upai{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px  0px 100px ;
+    
+ }
+ .moves{
+    display: flex;
+ }
+ .knopka{
+    /* display: flex; 
+    justify-content: space-around; */
+    margin: 0px  0px 30px ;
+ }
+ .rock{
+    padding: 7px 15px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background: rgb(5, 177, 34);
+ }
+ .paper{
+   padding: 7px 15px;
+   border-radius: 10px;
+   border: none;
+   color: white;
+   background: rgb(5, 177, 34);
+}
+.scissor{
+   padding: 7px 15px;
+   border-radius: 10px;
+   border: none;
+   color: white;
+   background: rgb(5, 177, 34);
+}
